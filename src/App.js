@@ -9,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Yeah
+          { console.log(process.env) }
         </p>
         <a
           className="App-link"
